@@ -40,7 +40,7 @@ aside {
     margin: 2rem;
     border: 1px solid black;
     padding: 2rem;
-    background-color: beige;
+    background-color: bisque;
     color: #333;
     text-align: center;
 }
@@ -51,7 +51,8 @@ aside img {
 }
 
 footer {
-    margin: 10px;
+    background-color: bisque;
+    margin: 1rem;
     border: 1px solid black;
     text-align: center;
 }
