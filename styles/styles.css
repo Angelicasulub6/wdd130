@@ -1,3 +1,7 @@
+main {
+    max-width: 840px;
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -14,13 +18,40 @@ h1 {
 }
 
 img {
-    width: 150px;
+    width: 200px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
 
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid gray;
+}
+
 p {
-    padding: 10px;
+    padding: 0;
+}
+
+aside {
+    width: 15rem;
+    margin: 2rem;
+    border: 1px solid black;
+    padding: 2rem;
+    background-color: beige;
+    color: #333;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    margin: 10px;
+    top-border: 1px solid black;
+    text-align: center;
 }
