@@ -24,8 +24,11 @@ footer {
 }
 
 header {
-    background-color: white;
-    padding: 15px;
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
 }
 
 h1,
@@ -108,4 +111,20 @@ footer {
 .socialmedia img {
     width: 40px;
     height: auto;
+}
+
+nav {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav a {
+    color: white;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+
 }
