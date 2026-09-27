@@ -25,10 +25,17 @@ footer {
 
 header {
     background-color: var(--secondary-color);
-    padding: 1rem;
+    align-content: center;
+    padding: 0.5rem;
     color: white;
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 150px 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+header img {
+    width: 120px;
 }
 
 h1,
@@ -47,15 +54,17 @@ article {
 
 .socialmedia a {
     text-decoration: none;
+    display: flex;
+    gap: 0.5rem;
 }
 
 .hero {
     position: relative;
+    margin-top: 1rem;
 }
 
 .hero img {
-    display: block;
-    width: 100%;
+    width: 20%;
     height: auto;
 }
 
@@ -65,19 +74,19 @@ h1 {
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.7;
-    background-color: var(--secondary-color);
-    color: white;
+    color: black;
 }
 
-h2 {
+.history {
+    position: relative;
     width: 80%;
     margin: 0 auto;
     text-align: center;
     padding: 16px;
     background-color: var(--secondary-color);
     color: white;
-
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 p {
@@ -86,12 +95,10 @@ p {
 }
 
 .hero article {
-    position: absolute;
+    position: relative;
+    align-content: center;
     bottom: 20px;
-    left: 5%;
-    width: 90%;
-    padding: 20px;
-    opacity: 0.7;
+    padding: 10px;
     background-color: var(--secondary-color);
     color: black;
 }
@@ -106,6 +113,10 @@ p {
 footer {
     margin-top: 1em;
     border-top: 1px solid black;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .socialmedia img {
@@ -114,10 +125,10 @@ footer {
 }
 
 nav {
-    padding: 1rem;
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 1rem;
 }
 
 nav a {
@@ -126,5 +137,4 @@ nav a {
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: 700;
-
 }
