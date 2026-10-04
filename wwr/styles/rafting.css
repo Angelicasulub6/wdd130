@@ -59,21 +59,8 @@ h2 {
     color: var(--primary-color);
 }
 
-nav,
-p,
-section,
-article {
-    margin: 16px;
-    padding: 8px;
-}
-
-p {
-    margin: 16px;
-    padding: 8px;
-}
-
 .hero {
-    position: relative;
+    position: absolute;
     margin-top: 1rem;
 }
 
@@ -83,10 +70,8 @@ p {
 }
 
 h1 {
-    position: absolute;
-    top: 20px;
+    position: relative;
     width: 100%;
-    padding: 16px;
     text-align: center;
     color: var(--primary-color);
 }
@@ -152,6 +137,8 @@ h1 {
     background-color: var(--secondary-color);
     width: 100%;
     text-align: center;
+    padding: 1.5rem;
+    margin: 2rem 0;
 }
 
 .adventure h2 {
@@ -159,12 +146,18 @@ h1 {
 }
 
 .adventure img {
-    width: 130px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+}
+
+.adventure figure {
+    flex: 1 1 150px;
+    margin: 0;
 }
 
 .adventure figcaption {
     color: var(--primary-color);
+    margin-top: 0.5rem;
 }
 
 .socialmedia a {
@@ -189,4 +182,54 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.contact-info {
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.contact-about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.contact-info p {
+    margin: .5rem;
+}
+
+.map iframe {
+    width: 100%;
+}
+
+.contact-form {
+    width: 100%;
+    margin: 1rem;
+    padding: 1rem;
+    color: #111;
+    border-radius: 0.5rem;
+}
+
+.contact-form div {
+    margin-bottom: 1rem;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: .5rem;
+    align-items: flex-end;
+}
+
+button {
+    background-color: var(--primary-color);
+    width: 250px;
+    padding: 0.7rem;
+    color: white;
+    margin: 1rem auto 0;
+    display: block;
+    border-radius: 0.4rem;
+    border: none;
 }
