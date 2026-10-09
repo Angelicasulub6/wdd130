@@ -176,9 +176,9 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 0.25rem;
     background-color: var(--secondary-color);
-    margin-top: 2rem;
+    margin-top: 1em;
 }
 
 footer p {
@@ -198,4 +198,107 @@ footer p {
 .socialmedia img {
     width: 30px;
     height: 30px;
+}
+
+/* contact */
+.contact-info {
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    margin: 1rem 0;
+}
+
+.contact-info p {
+    margin: .5rem;
+    padding: 0;
+}
+
+.contact-about {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+}
+
+.map iframe {
+    width: 100%;
+}
+
+.contact-form {
+    width: 80%;
+    margin: 1rem;
+    padding: 1rem;
+    color: var(--accent1-color);
+    border-radius: 0.5rem;
+}
+
+.form-item {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.form-item label {
+    margin: 0;
+}
+
+.form-item input,
+.form-item textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px;
+}
+
+.contact-form div {
+    margin-bottom: 1rem;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: .5rem;
+    align-items: flex-end;
+}
+
+button {
+    background-color: var(--primary-color);
+    width: 250px;
+    padding: 0.7rem;
+    color: white;
+    margin: 1rem auto 0;
+    display: block;
+    border-radius: 0.4rem;
+    border: none;
+}
+
+.employers {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: var(--secondary-color);
+    width: 100%;
+    text-align: center;
+    padding: 1.5rem;
+    margin: 2rem 0;
+}
+
+.employers h2 {
+    flex-basis: 100%;
+}
+
+.employers img {
+    width: 150px;
+    height: 150px;
+}
+
+.employers figure {
+    flex: 1 1 150px;
+    margin: 0;
+}
+
+.employers figcaption {
+    color: var(--primary-color);
+    margin-top: 0.5rem;
 }
